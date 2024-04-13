@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      var audio = new Audio('cave.mp3');
+      audio.play();
+      setTimeout(function() {
+        window.location.pathname = 'cake.html';
+        }, 3000);
+    });
+  </script>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      background-image: url('creepy.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      
+      /* Optional: To center the image vertically and horizontally */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+
+</body>
+
+</html>

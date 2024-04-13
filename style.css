@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'vcr';
+  src: url('VCR_OSD_MONO.TTF') format('opentype');
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'vcr';
+  background-color: #000000;
+  color: white;
+  font-size: 250%;
+}
+
+nav, #content {
+  position: sticky;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.h{
+  text-align:center;
+}
+
+div{
+  color: black;
+  text-decoration: none;
+}
+
+#test{
+  height: 180px;
+  width: 110px;
+  position: fixed;
+  margin:15% 45%;
+  image-rendering: pixelated;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zoom-in {
+    transform: scale(3);
+    transition: transform 0.8s;
+}
+
+#content{
+  padding-right: 90px;
+  font-size: 12.5px;
+}
+
+#white{
+  font-size: 3px;
+  color: black;
+}
+
+td{
+  width:40pt; height:40pt;
+  border-collapse:collapse;
+  border-color: silver;
+  border-style: solid;
+  border-width: 1pt 1pt 1pt 1pt
+}
+
+span{
+  font-size: 250%;
+}

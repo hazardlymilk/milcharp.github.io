@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url('cr1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Optional: To center the image vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#span1{
+  height: 150px; width: 250px;
+  position: absolute;
+  top: 180px;
+  right: 550px;
+}
+
+#radio{
+  height: 75px; width: 75px;
+  position: absolute;
+  top: 220px;
+  right: 450px;
+}
+
+#sources{
+  height: 150px; width: 240px;
+  position: absolute;
+  top: 160px;
+  left: 160px;
+}
+
+#couloir{
+  height: 100px; width: 120px;
+  position: absolute;
+  top: 240px;
+  right: 140px;
+}
+
+#radar{
+  height: 150px; width: 250px;
+  position: absolute;
+  top: 50px;
+  right: 320px;
+}
